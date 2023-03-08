@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quizz</title>
+</head>
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Faster+One&family=Goblin+One&family=Meie+Script&family=Rye&family=Sail&family=Sirin+Stencil&display=swap');
+
+    nav {
+        border-bottom: 3px solid lime !important;
+    }
+
+    .navbar-brand {
+        font-family: 'Faster One', cursive;
+        font-weight: 10;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        margin-left: 1rem;
+        padding: 5px;
+        color: lime !important;
+        font-size: 27px;
+        border: 4px solid lime;
+        border-radius: 50%;
+    }
+
+    .brands {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: lime !important;
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
+    .intro {
+        font-style: normal !important;
+        font-family: 'Sail', cursive;
+        color: whitesmoke;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .nameing {
+        font-family: 'Rye', cursive;
+        font-size: 45px;
+        color: lime;
+    }
+
+    .start {
+        text-decoration: none;
+        margin-top: 5rem !important;
+        background-image: linear-gradient(to right, lime 0%, #333399 51%, whitesmoke 100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: capitalize;
+        transition: 0.9s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 35px;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .start:hover {
+        background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+
+    }
+</style>
+
+<body bg="dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ER</a>
+        </div>
+        </div>
+    </nav>
+    <div class="hero bg-dark" style="height:83.8vh;">
+        <br><br><br>
+        <center>
+            <p class="intro" id="intro">a grand welcome to</p>
+            <br>
+            <h3 class="nameing">ER Tech Solutions</h3>
+        </center>
+        <br>
+        <center>
+            <button type="submit" name="start" class="start" id="welcome" onclick="get_started();">Get Started</button>
+        </center>
+    </div>
+    <footer class="bg-dark">
+        <center>
+            <p style="color: whitesmoke;font-weight:bold;margin-bottom: 2px;">Developed by Eswar</p>
+        </center><br>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../quizz/js/scroll.js"></script>
+
+</body>
+
+</html>
